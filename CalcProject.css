@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(22, 22, 22);
+}
+
+.CalcImgLight {
+  position: absolute;
+  margin-left: 47%;
+  overflow: auto;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.CalcImgLight:hover {
+  transform: translate(25px, 25px);
+  transform: scale(1.08);
+}
+.CalcImgDark {
+  position: absolute;
+  margin-left: 23%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.CalcImgDark:hover {
+  transform: scale(1.08);
+}
+.DecorImage1 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 30%;
+  width: 200px;
+}
+.DecorImage2 {
+  position: absolute;
+  width: 200px;
+  margin-left: 1850px;
+  margin-top: 50px;
+}
+.btnCalc {
+  box-sizing: border-box;
+  background-color: rgb(22, 22, 22);
+  position: absolute;
+  width: 280px;
+  height: 101px;
+  left: 40px;
+  top: 40px;
+  border: 1px solid #969696;
+  cursor: pointer;
+  transition: 1s;
+}
+.btnText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.btnCalc:hover{
+  scale: 1.08;
+}
